@@ -1,0 +1,84 @@
+qtmib (1.1) baseline; urgency=low
+
+  * added MIBS: lancope, netapp, avaya, fortinet, gsmpMIB, picaPrivateMIB
+  * added Preferences dialog box and IP address field to qtmib-report
+  * added support for timeout and retries in qtmib-report tool
+  * make preferences persistent in all qtmib tools
+  * speed-up network scanning in qtmib-discover tool
+  * speed-up large mib walks
+  * added uptime in qtmib-discover table
+  * added response time in qtmib-discover table
+  * added clear and update table in qtmib-discover
+  * added Preference dialog box in qtmib-discover
+  * added progress indicator for report generation
+  * added host monitoring capabilities in discover tool
+  * fixed MIB tree scrolling while searching
+  * fixed oid order in qtmib-translation tool
+  * fixed qtmib-translation tool crash
+  * implemented network socket error recovery in qtmib-discover
+  * use random port in qtmib-discover
+  * fixed lost malloc memory in qtmib-discover
+  * fix interface network address in qtmib-discover dropbox
+  * pass down --debug option from qtmib to qtmib-report
+  * fixed unnamed mib entries handling in qtmib-translation tool
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Fri, 26 September 2014 08:00:00 -0500
+
+
+qtmib (1.0) baseline; urgency=low
+
+  * compile time hardening
+  * Debian, Ubuntu, OpenSUSE and Fedora binary packages
+  * bug fixes
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Sat, 10 May 2014 08:00:00 -0500
+
+qtmib (0.8.12) baseline; urgency=low
+
+  * bug fixes
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Thu, 17 Sep 2013 09:00:00 -0500
+
+qtmib (0.8.10) baseline; urgency=low
+
+  * connection report
+  * Apache and Squid MIBs
+  * several user interface improvements
+  * bug fixes
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Thu, 08 Aug 2013 07:20:00 -0500
+
+qtmib (0.8.8) baseline; urgency=low
+
+  * Report support
+  * bug fixes
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Sat, 06 Jul 2013 08:00:00 -0500
+
+qtmib (0.8.6) baseline; urgency=low
+
+  * network discovery support
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Fri, 21 Jun 2013 07:15:00 -0500
+
+qtmib (0.8.4) baseline; urgency=low
+
+  * fixed Search button crash
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Fri, 07 Jun 2013 18:00:00 -0500
+
+qtmib (0.8.2) baseline; urgency=low
+
+  * MIB search
+  * man page
+  * fixed getnext command
+  * fixed private MIBs loading
+  * other bug fixes
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Wed, 05 Jun 2013 09:00:00 -0500
+
+qtmib (0.8) baseline; urgency=low
+
+  * development setup
+
+ -- RCP100 Team <rcpteam@yahoo.com>  Mon, 20 May 2013 09:00:00 -0500

@@ -1,0 +1,20 @@
+/* confdefs.h */
+#define PACKAGE_NAME "qtmib"
+#define PACKAGE_TARNAME "qtmib"
+#define PACKAGE_VERSION "1.1.1"
+#define PACKAGE_STRING "qtmib 1.1.1"
+#define PACKAGE_BUGREPORT "rcpteam@yahoo.com"
+#define PACKAGE_URL "http://qtmib.sourceforge.net"
+#define HAVE_LIBPTHREAD 1
+#define STDC_HEADERS 1
+#define HAVE_SYS_TYPES_H 1
+#define HAVE_SYS_STAT_H 1
+#define HAVE_STDLIB_H 1
+#define HAVE_STRING_H 1
+#define HAVE_MEMORY_H 1
+#define HAVE_STRINGS_H 1
+#define HAVE_INTTYPES_H 1
+#define HAVE_STDINT_H 1
+#define HAVE_UNISTD_H 1
+#define HAVE_LIBQTCORE 1
+#define HAVE_LIBQTGUI 1
